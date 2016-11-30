@@ -3,9 +3,6 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-common-zookeeper/2.6.27/xiaomi-common-zookeeper-2.6.27.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-common-zookeeper/2.6.27/xiaomi-common-zookeeper-2.6.27-javadoc.jar!/" />
-    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/xiaomi-common-zookeeper/2.6.27/xiaomi-common-zookeeper-2.6.27-sources.jar!/" />
     </SOURCES>

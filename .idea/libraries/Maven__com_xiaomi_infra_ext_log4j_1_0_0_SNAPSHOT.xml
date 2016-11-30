@@ -3,9 +3,6 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/ext-log4j/1.0.0-SNAPSHOT/ext-log4j-1.0.0-20130703.084505-3.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/ext-log4j/1.0.0-SNAPSHOT/ext-log4j-1.0.0-20130703.084505-3-javadoc.jar!/" />
-    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/ext-log4j/1.0.0-SNAPSHOT/ext-log4j-1.0.0-20130703.084505-3-sources.jar!/" />
     </SOURCES>

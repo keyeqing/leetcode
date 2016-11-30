@@ -3,9 +3,6 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/themis-coprocessor/1.0-SNAPSHOT/themis-coprocessor-1.0-20150722.035134-38-tests.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/themis-coprocessor/1.0-SNAPSHOT/themis-coprocessor-1.0-20150722.035134-38-test-javadoc.jar!/" />
-    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/themis-coprocessor/1.0-SNAPSHOT/themis-coprocessor-1.0-20150722.035134-38-test-sources.jar!/" />
     </SOURCES>

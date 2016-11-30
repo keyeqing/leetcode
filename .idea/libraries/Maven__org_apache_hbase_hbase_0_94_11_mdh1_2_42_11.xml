@@ -3,9 +3,6 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase/0.94.11-mdh1.2.42.11/hbase-0.94.11-mdh1.2.42.11.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase/0.94.11-mdh1.2.42.11/hbase-0.94.11-mdh1.2.42.11-javadoc.jar!/" />
-    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase/0.94.11-mdh1.2.42.11/hbase-0.94.11-mdh1.2.42.11-sources.jar!/" />
     </SOURCES>

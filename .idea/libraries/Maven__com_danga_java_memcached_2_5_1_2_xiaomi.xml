@@ -3,9 +3,6 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/danga/java-memcached/2.5.1.2-xiaomi/java-memcached-2.5.1.2-xiaomi.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/danga/java-memcached/2.5.1.2-xiaomi/java-memcached-2.5.1.2-xiaomi-javadoc.jar!/" />
-    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/danga/java-memcached/2.5.1.2-xiaomi/java-memcached-2.5.1.2-xiaomi-sources.jar!/" />
     </SOURCES>

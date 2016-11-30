@@ -3,9 +3,6 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/scribe-log4j/1.0.0-SNAPSHOT/scribe-log4j-1.0.0-20140127.112530-1.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/scribe-log4j/1.0.0-SNAPSHOT/scribe-log4j-1.0.0-20140127.112530-1-javadoc.jar!/" />
-    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/scribe-log4j/1.0.0-SNAPSHOT/scribe-log4j-1.0.0-20140127.112530-1-sources.jar!/" />
     </SOURCES>

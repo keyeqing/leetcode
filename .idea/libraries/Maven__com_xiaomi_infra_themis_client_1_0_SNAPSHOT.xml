@@ -3,9 +3,6 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/themis-client/1.0-SNAPSHOT/themis-client-1.0-20150722.035141-36.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/themis-client/1.0-SNAPSHOT/themis-client-1.0-20150722.035141-36-javadoc.jar!/" />
-    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/themis-client/1.0-SNAPSHOT/themis-client-1.0-20150722.035141-36-sources.jar!/" />
     </SOURCES>
