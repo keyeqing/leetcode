@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi.cube:cube-thrift:0.0.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cube/cube-thrift/0.0.3-SNAPSHOT/cube-thrift-0.0.3-20160803.080650-138.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cube/cube-thrift/0.0.3-SNAPSHOT/cube-thrift-0.0.3-20160803.080650-138-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cube/cube-thrift/0.0.3-SNAPSHOT/cube-thrift-0.0.3-20160803.080650-138-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

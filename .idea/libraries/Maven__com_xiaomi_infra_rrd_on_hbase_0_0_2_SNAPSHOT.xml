@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi.infra:rrd-on-hbase:0.0.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/rrd-on-hbase/0.0.2-SNAPSHOT/rrd-on-hbase-0.0.2-20150923.114954-12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/rrd-on-hbase/0.0.2-SNAPSHOT/rrd-on-hbase-0.0.2-20150923.114954-12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/infra/rrd-on-hbase/0.0.2-SNAPSHOT/rrd-on-hbase-0.0.2-20150923.114954-12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

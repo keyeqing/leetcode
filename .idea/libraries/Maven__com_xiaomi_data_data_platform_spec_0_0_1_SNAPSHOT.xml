@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi.data:data-platform-spec:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/data/data-platform-spec/0.0.1-SNAPSHOT/data-platform-spec-0.0.1-20161103.084455-9680.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/data/data-platform-spec/0.0.1-SNAPSHOT/data-platform-spec-0.0.1-20161103.084455-9680-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/data/data-platform-spec/0.0.1-SNAPSHOT/data-platform-spec-0.0.1-20161103.084455-9680-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

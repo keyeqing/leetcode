@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/leetcode.iml" filepath="$PROJECT_DIR$/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../picture-recommend/picture-common/picture-common.iml" filepath="$PROJECT_DIR$/../picture-recommend/picture-common/picture-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../picture-recommend/picture-data/picture-data.iml" filepath="$PROJECT_DIR$/../picture-recommend/picture-data/picture-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../picture-recommend/picture-parent/picture-parent.iml" filepath="$PROJECT_DIR$/../picture-recommend/picture-parent/picture-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../picture-recommend/picture-plugin/picture-plugin.iml" filepath="$PROJECT_DIR$/../picture-recommend/picture-plugin/picture-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../picture-recommend/picture-recommend.iml" filepath="$PROJECT_DIR$/../picture-recommend/picture-recommend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../picture-recommend/picture-service/picture-service.iml" filepath="$PROJECT_DIR$/../picture-recommend/picture-service/picture-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../picture-recommend/picture-thrift/picture-thrift.iml" filepath="$PROJECT_DIR$/../picture-recommend/picture-thrift/picture-thrift.iml" />
+    </modules>
+  </component>
+</project>

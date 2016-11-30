@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi.cubedb:cubedb-client:0.0.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cubedb/cubedb-client/0.0.2-SNAPSHOT/cubedb-client-0.0.2-20160907.084600-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cubedb/cubedb-client/0.0.2-SNAPSHOT/cubedb-client-0.0.2-20160907.084600-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cubedb/cubedb-client/0.0.2-SNAPSHOT/cubedb-client-0.0.2-20160907.084600-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

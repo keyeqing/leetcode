@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi.cubedb:cubedb-thrift:0.0.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cubedb/cubedb-thrift/0.0.2-SNAPSHOT/cubedb-thrift-0.0.2-20160811.062734-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cubedb/cubedb-thrift/0.0.2-SNAPSHOT/cubedb-thrift-0.0.2-20160811.062734-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cubedb/cubedb-thrift/0.0.2-SNAPSHOT/cubedb-thrift-0.0.2-20160811.062734-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

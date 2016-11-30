@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.xiaomi.cube:cube-common:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cube/cube-common/0.0.1-SNAPSHOT/cube-common-0.0.1-20161018.064001-173.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cube/cube-common/0.0.1-SNAPSHOT/cube-common-0.0.1-20161018.064001-173-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/xiaomi/cube/cube-common/0.0.1-SNAPSHOT/cube-common-0.0.1-20161018.064001-173-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
