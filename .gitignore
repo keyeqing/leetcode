@@ -18,4 +18,5 @@ src_managed/
 themis_metrics.out
 coverage-report
 nohup.out
+cmake-build-debug/
 dependency-reduced-pom.xml

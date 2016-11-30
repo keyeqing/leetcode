@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/Users/keyeqing/workspace/leetcode/Solution_267.cpp
+Solution_267.h
+/Users/keyeqing/workspace/leetcode/Solution_267.h
+
+/Users/keyeqing/workspace/leetcode/Solution_267.h
+map
+-
+vector
+-
+string
+-
+
 /Users/keyeqing/workspace/leetcode/main.cpp
 iostream
 -
 map
 -
+Solution_267.h
+/Users/keyeqing/workspace/leetcode/Solution_267.h
 
