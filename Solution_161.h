@@ -57,7 +57,7 @@ public:
                     j++;
                 }
             }
-            if (count == 1 || count == 0 && (m == 0 || n == 0 || j == m - 1 || i == n - 1)) {
+            if (count == 1 || abs(m - n) == 1 && count == 0 && (m == 0 || n == 0 || j == m - 1 || i == n - 1)) {
                 return true;
             } else {
                 return false;
