@@ -6,5 +6,5 @@
 
 bool test_161(){
     Solution_161 solution161;
-    return solution161.isOneEditDistance("a","b");
+    return solution161.isOneEditDistance_v2("a","");
 }
