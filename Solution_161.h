@@ -36,6 +36,36 @@ public:
         }
         return dp[m][n];
     }
+
+    bool isOneEditDistance_v2(string s, string t) {
+        int m = s.size(), n = t.size();
+        if (m == n || abs(m - n) == 1) {
+            int count = 0;
+            int i = 0, j = 0;
+            while (i < m && j < n) {
+                if (s[i] != t[j]) {
+                    count++;
+                    if (count > 1) return false;
+                    if (m >= n) {
+                        i++;
+                    }
+                    if (n >= m) {
+                        j++;
+                    }
+                } else {
+                    i++;
+                    j++;
+                }
+            }
+            if (count == 1 || count == 0 && (m == 0 || n == 0 || j == m - 1 || i == n - 1)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        return false;
+
+    }
 };
 
 bool test_161();
