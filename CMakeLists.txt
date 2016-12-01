@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.6)
-project(LeetCode)
+project(algorithm)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Solution_267.cpp Solution_267.h)
-add_executable(LeetCode ${SOURCE_FILES})
+set(SOURCE_FILES
+    ../leetcode/main.cpp ../leetcode/Solution.cpp ../leetcode/Solution.h ../leetcode/Solution_253.cpp ../leetcode/Solution_253.h ../leetcode/Solution_261.cpp ../leetcode/Solution_261.h ../leetcode/Solution_277.cpp ../leetcode/Solution_277.h ../leetcode/Solution_417.cpp ../leetcode/Solution_417.h ../leetcode/Solution_161.cpp ../leetcode/Solution_161.h)
+
+add_executable(algorithm ${SOURCE_FILES})

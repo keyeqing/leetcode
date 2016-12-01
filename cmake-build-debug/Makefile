@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/keyeqing/software/clion-2016.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/keyeqing/software/clion-2016.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/keyeqing/workspace/leetcode
+CMAKE_SOURCE_DIR = /home/keyeqing/workspace/leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/keyeqing/workspace/leetcode/cmake-build-debug
+CMAKE_BINARY_DIR = /home/keyeqing/workspace/leetcode/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/keyeqing/workspace/leetcode/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/keyeqing/software/clion-2016.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/keyeqing/software/clion-2016.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keyeqing/workspace/leetcode/cmake-build-debug/CMakeFiles /Users/keyeqing/workspace/leetcode/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keyeqing/workspace/leetcode/cmake-build-debug/CMakeFiles /home/keyeqing/workspace/leetcode/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keyeqing/workspace/leetcode/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keyeqing/workspace/leetcode/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,179 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LeetCode
+# Target rules for targets named algorithm
 
 # Build rule for target.
-LeetCode: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LeetCode
-.PHONY : LeetCode
+algorithm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 algorithm
+.PHONY : algorithm
 
 # fast build rule for target.
-LeetCode/fast:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
-.PHONY : LeetCode/fast
+algorithm/fast:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/build
+.PHONY : algorithm/fast
 
-Solution_267.o: Solution_267.cpp.o
+Solution.o: Solution.cpp.o
 
-.PHONY : Solution_267.o
+.PHONY : Solution.o
 
 # target to build an object file
-Solution_267.cpp.o:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/Solution_267.cpp.o
-.PHONY : Solution_267.cpp.o
+Solution.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution.cpp.o
+.PHONY : Solution.cpp.o
 
-Solution_267.i: Solution_267.cpp.i
+Solution.i: Solution.cpp.i
 
-.PHONY : Solution_267.i
+.PHONY : Solution.i
 
 # target to preprocess a source file
-Solution_267.cpp.i:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/Solution_267.cpp.i
-.PHONY : Solution_267.cpp.i
+Solution.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution.cpp.i
+.PHONY : Solution.cpp.i
 
-Solution_267.s: Solution_267.cpp.s
+Solution.s: Solution.cpp.s
 
-.PHONY : Solution_267.s
+.PHONY : Solution.s
 
 # target to generate assembly for a file
-Solution_267.cpp.s:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/Solution_267.cpp.s
-.PHONY : Solution_267.cpp.s
+Solution.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution.cpp.s
+.PHONY : Solution.cpp.s
+
+Solution_161.o: Solution_161.cpp.o
+
+.PHONY : Solution_161.o
+
+# target to build an object file
+Solution_161.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_161.cpp.o
+.PHONY : Solution_161.cpp.o
+
+Solution_161.i: Solution_161.cpp.i
+
+.PHONY : Solution_161.i
+
+# target to preprocess a source file
+Solution_161.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_161.cpp.i
+.PHONY : Solution_161.cpp.i
+
+Solution_161.s: Solution_161.cpp.s
+
+.PHONY : Solution_161.s
+
+# target to generate assembly for a file
+Solution_161.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_161.cpp.s
+.PHONY : Solution_161.cpp.s
+
+Solution_253.o: Solution_253.cpp.o
+
+.PHONY : Solution_253.o
+
+# target to build an object file
+Solution_253.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_253.cpp.o
+.PHONY : Solution_253.cpp.o
+
+Solution_253.i: Solution_253.cpp.i
+
+.PHONY : Solution_253.i
+
+# target to preprocess a source file
+Solution_253.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_253.cpp.i
+.PHONY : Solution_253.cpp.i
+
+Solution_253.s: Solution_253.cpp.s
+
+.PHONY : Solution_253.s
+
+# target to generate assembly for a file
+Solution_253.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_253.cpp.s
+.PHONY : Solution_253.cpp.s
+
+Solution_261.o: Solution_261.cpp.o
+
+.PHONY : Solution_261.o
+
+# target to build an object file
+Solution_261.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_261.cpp.o
+.PHONY : Solution_261.cpp.o
+
+Solution_261.i: Solution_261.cpp.i
+
+.PHONY : Solution_261.i
+
+# target to preprocess a source file
+Solution_261.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_261.cpp.i
+.PHONY : Solution_261.cpp.i
+
+Solution_261.s: Solution_261.cpp.s
+
+.PHONY : Solution_261.s
+
+# target to generate assembly for a file
+Solution_261.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_261.cpp.s
+.PHONY : Solution_261.cpp.s
+
+Solution_277.o: Solution_277.cpp.o
+
+.PHONY : Solution_277.o
+
+# target to build an object file
+Solution_277.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_277.cpp.o
+.PHONY : Solution_277.cpp.o
+
+Solution_277.i: Solution_277.cpp.i
+
+.PHONY : Solution_277.i
+
+# target to preprocess a source file
+Solution_277.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_277.cpp.i
+.PHONY : Solution_277.cpp.i
+
+Solution_277.s: Solution_277.cpp.s
+
+.PHONY : Solution_277.s
+
+# target to generate assembly for a file
+Solution_277.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_277.cpp.s
+.PHONY : Solution_277.cpp.s
+
+Solution_417.o: Solution_417.cpp.o
+
+.PHONY : Solution_417.o
+
+# target to build an object file
+Solution_417.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_417.cpp.o
+.PHONY : Solution_417.cpp.o
+
+Solution_417.i: Solution_417.cpp.i
+
+.PHONY : Solution_417.i
+
+# target to preprocess a source file
+Solution_417.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_417.cpp.i
+.PHONY : Solution_417.cpp.i
+
+Solution_417.s: Solution_417.cpp.s
+
+.PHONY : Solution_417.s
+
+# target to generate assembly for a file
+Solution_417.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_417.cpp.s
+.PHONY : Solution_417.cpp.s
 
 main.o: main.cpp.o
 
@@ -156,7 +291,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +300,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +309,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,10 +320,25 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... LeetCode"
-	@echo "... Solution_267.o"
-	@echo "... Solution_267.i"
-	@echo "... Solution_267.s"
+	@echo "... algorithm"
+	@echo "... Solution.o"
+	@echo "... Solution.i"
+	@echo "... Solution.s"
+	@echo "... Solution_161.o"
+	@echo "... Solution_161.i"
+	@echo "... Solution_161.s"
+	@echo "... Solution_253.o"
+	@echo "... Solution_253.i"
+	@echo "... Solution_253.s"
+	@echo "... Solution_261.o"
+	@echo "... Solution_261.i"
+	@echo "... Solution_261.s"
+	@echo "... Solution_277.o"
+	@echo "... Solution_277.i"
+	@echo "... Solution_277.s"
+	@echo "... Solution_417.o"
+	@echo "... Solution_417.i"
+	@echo "... Solution_417.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

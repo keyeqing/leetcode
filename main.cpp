@@ -1,14 +1,13 @@
 #include <iostream>
-#include <map>
-#include "Solution_267.h"
+#include "Solution_253.h"
+#include "Solution_161.h"
+#include "Solution_417.h"
 
 using namespace std;
+
 int main() {
-    //std::cout << "Hello, World!" << std::endl;
-    Solution_267 solution267;
-    vector<string> res = solution267.generatePalindromes("abccbcc");
-    for (string s:res){
-        cout<<s<<endl;
-    }
-    return 0;
+    //[[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]]
+    Solution_161 solution161;
+    cout << solution161.isOneEditDistance("", "") << endl;
+    //cout << test_161() << endl;
 }
