@@ -120,8 +120,8 @@
       <file leaf-file-name="Solution_161.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Solution_161.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="59" column="49" lean-forward="false" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+            <state relative-caret-position="608">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="81" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -478,12 +478,12 @@
       <workItem from="1480514931926" duration="281000" />
       <workItem from="1480515246724" duration="3016000" />
       <workItem from="1480559784256" duration="2404000" />
-      <workItem from="1480601875791" duration="181000" />
+      <workItem from="1480601875791" duration="909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12483000" />
+    <option name="totallyTimeSpent" value="13211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution_161.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="59" column="49" lean-forward="false" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+        <state relative-caret-position="608">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="81" selection-end-column="45" />
           <folding />
         </state>
       </provider>
