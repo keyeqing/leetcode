@@ -83,7 +83,6 @@ public:
         return abs(s.size() - t.size()) == 1;
     }
 
-    >>>>>>> 1f50d521d463fa23d2363f35057dc97296255dd5
 };
 
 bool test_161();
