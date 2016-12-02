@@ -258,6 +258,33 @@ Solution_277.cpp.s:
 	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_277.cpp.s
 .PHONY : Solution_277.cpp.s
 
+Solution_356.o: Solution_356.cpp.o
+
+.PHONY : Solution_356.o
+
+# target to build an object file
+Solution_356.cpp.o:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_356.cpp.o
+.PHONY : Solution_356.cpp.o
+
+Solution_356.i: Solution_356.cpp.i
+
+.PHONY : Solution_356.i
+
+# target to preprocess a source file
+Solution_356.cpp.i:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_356.cpp.i
+.PHONY : Solution_356.cpp.i
+
+Solution_356.s: Solution_356.cpp.s
+
+.PHONY : Solution_356.s
+
+# target to generate assembly for a file
+Solution_356.cpp.s:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/Solution_356.cpp.s
+.PHONY : Solution_356.cpp.s
+
 Solution_417.o: Solution_417.cpp.o
 
 .PHONY : Solution_417.o
@@ -336,6 +363,9 @@ help:
 	@echo "... Solution_277.o"
 	@echo "... Solution_277.i"
 	@echo "... Solution_277.s"
+	@echo "... Solution_356.o"
+	@echo "... Solution_356.i"
+	@echo "... Solution_356.s"
 	@echo "... Solution_417.o"
 	@echo "... Solution_417.i"
 	@echo "... Solution_417.s"
