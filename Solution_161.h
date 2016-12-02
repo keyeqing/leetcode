@@ -17,7 +17,7 @@ public:
     bool isOneEditDistance(string s, string t) {
         int m = s.size(), n = t.size();
         if (abs(m - n) > 1) return false;
-        vector<vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
+        vector <vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
         for (int i = 0; i <= m; i++) {
             for (int j = 0; j <= n; j++) {
                 if (i == 0 && j == 1 || i == 1 && j == 0) {
@@ -57,7 +57,8 @@ public:
                     j++;
                 }
             }
-            if (count == 1 || count == 0 && (m == 0 || n == 0 || j == m - 1 || i == n - 1)) {
+
+            if (count == 1 || abs(m - n) == 1 && count == 0 && (m == 0 || n == 0 || j == m - 1 || i == n - 1)) {
                 return true;
             } else {
                 return false;
@@ -66,6 +67,23 @@ public:
         return false;
 
     }
+
+    bool isOneEditDistance_v3(string s, string t) {
+        for (int i = 0; i < min(s.size(), t.size()); ++i) {
+            if (s[i] != t[i]) {
+                if (s.size() == t.size()) {
+                    return s.substr(i + 1) == t.substr(i + 1);
+                } else if (s.size() > t.size()) {
+                    return s.substr(i + 1) == t.substr(i);
+                } else {
+                    return s.substr(i) == t.substr(i + 1);
+                }
+            }
+        }
+        return abs(s.size() - t.size()) == 1;
+    }
+
+    >>>>>>> 1f50d521d463fa23d2363f35057dc97296255dd5
 };
 
 bool test_161();
