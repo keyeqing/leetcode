@@ -8,34 +8,29 @@
 #include <vector>
 #include <algorithm>
 #include <unordered_map>
+#include <unordered_set>
 
 using namespace std;
 
 class Solution_356 {
 public:
-    static int cmp(pair<int, int> &p1, pair<int, int> &p2) {
-        return p1.first < p2.first;
-    }
 
     bool isReflected(vector<pair<int, int>> &points) {
-        if (points.size() == 0) return false;
-        sort(points.begin(), points.end(), cmp);
-        unordered_map<int, int> m;
+        if (points.size() == 0) return true;
+        long maxV = INT_MIN, minV = INT_MAX;
+        unordered_map<int, unordered_set<int>> m;
         for (int i = 0; i < points.size(); ++i) {
-            if (m.find((points[i]).first) == m.end()) {
-                m[points[i].first] = i;
-            }
+            minV=min(minV,(long)points[i].first);
+            maxV=max(maxV,(long)points[i].first);
+            m[points[i].first].insert(points[i].second);
         }
-        int i = 0, end = points.size() - 1;
-        double x2 = ((double) points[i].first + (double) points[end].first);
-        while (i < end) {
-            int start = m[points[end].first];
-            for (int j = start; j <= end; j++, i++) {
-                if (x2 != (double) points[i].first + (double) points[j].first ||
-                    points[i].second != points[j].second)
-                    return false;
+
+        long x2 = maxV+minV;
+        for (int j = 0; j < points.size(); ++j) {
+            unordered_set<int> s =  m[x2-points[j].first];
+            if(s.find(points[j].second)==s.end()){
+                return false;
             }
-            end = start - 1;
         }
         return true;
     }
