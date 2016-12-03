@@ -1,3 +1,0 @@
-/home/keyeqing/workspace/leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/keyeqing/workspace/leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/keyeqing/workspace/leetcode/cmake-build-debug/CMakeFiles/algorithm.dir

@@ -5,9 +5,9 @@
 #ifndef ALGORITHM_SOLUTION_161_H
 #define ALGORITHM_SOLUTION_161_H
 
+
 #include <string>
 #include <vector>
-#include <algorithm>
 #include <iostream>
 
 using namespace std;
@@ -80,7 +80,7 @@ public:
                 }
             }
         }
-        return abs(s.size() - t.size()) == 1;
+        return abs((int)(s.size() - t.size())) == 1;
     }
 
 };
