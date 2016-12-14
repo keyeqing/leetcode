@@ -4,6 +4,6 @@ project(algorithm)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-    ../leetcode/main.cpp ../leetcode/Solution.cpp ../leetcode/Solution.h ../leetcode/Solution_253.cpp ../leetcode/Solution_253.h ../leetcode/Solution_261.cpp ../leetcode/Solution_261.h ../leetcode/Solution_277.cpp ../leetcode/Solution_277.h ../leetcode/Solution_417.cpp ../leetcode/Solution_417.h ../leetcode/Solution_161.cpp ../leetcode/Solution_161.h Solution_356.cpp Solution_356.h Solution_163.cpp Solution_163.h Solution_379.cpp Solution_379.h Solution_456.cpp Solution_456.h Solution_418.cpp Solution_418.h Solution_353.cpp Solution_353.h Solution_475.cpp Solution_475.h)
+    ../leetcode/main.cpp ../leetcode/Solution.cpp ../leetcode/Solution.h ../leetcode/Solution_253.cpp ../leetcode/Solution_253.h ../leetcode/Solution_261.cpp ../leetcode/Solution_261.h ../leetcode/Solution_277.cpp ../leetcode/Solution_277.h ../leetcode/Solution_417.cpp ../leetcode/Solution_417.h ../leetcode/Solution_161.cpp ../leetcode/Solution_161.h Solution_356.cpp Solution_356.h Solution_163.cpp Solution_163.h Solution_379.cpp Solution_379.h Solution_467.cpp Solution_467.h)
 
 add_executable(algorithm ${SOURCE_FILES})
